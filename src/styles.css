@@ -13,14 +13,21 @@ ul {
 
   padding: 0;
 }
+a,
+a:hover {
+  text-decoration: none;
+}
 /* common */
+.p-cursor {
+  cursor: pointer;
+}
 .p-flex {
   display: flex;
 }
 .p-flex-align-center {
   align-items: center;
 }
-.p-flex-justify-sb {
+.p-flex-jc-sb {
   justify-content: space-between;
 }
 

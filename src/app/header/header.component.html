@@ -1,7 +1,7 @@
 <header>
   <div class="container">
     <div class="row">
-      <div class="col-sm-12 p-flex p-flex-align-center p-flex-justify-sb">
+      <div class="col-sm-12 p-flex p-flex-align-center p-flex-jc-sb">
         <ul>
           <li class="p-hamburger">
             <span></span>
@@ -10,6 +10,7 @@
           </li>
           <li>
             <img
+              class="p-cursor"
               src="../../assets/img/search.png"
               alt="search icon"
               width="20px"
@@ -18,7 +19,9 @@
         </ul>
         <ul class="menu">
           <li>
-            <a href="#">Home</a>
+            <a href="# " [routerLink]="['/']" [routerLinkActive]="['is-active']"
+              >Home</a
+            >
           </li>
           <li>
             <a href="#">About</a>

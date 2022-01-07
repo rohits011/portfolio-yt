@@ -36,3 +36,19 @@ header ul li:last-child {
   text-decoration: none;
   color: rgb(172, 146, 112);
 }
+header ul li a {
+  color: #000;
+  font-weight: 500;
+  position: relative;
+}
+header ul li a:hover:after,
+header ul li a.is-active::after {
+  content: "";
+  background: #f9b205;
+  height: 9px;
+  position: absolute;
+  left: 1px;
+  z-index: -1;
+  bottom: 0;
+  right: -3px;
+}
